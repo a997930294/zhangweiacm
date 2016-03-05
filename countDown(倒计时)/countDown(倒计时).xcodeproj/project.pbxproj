@@ -13,7 +13,6 @@
 		72DC2C7C1C8A8C0C0051AFB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DC2C7A1C8A8C0C0051AFB2 /* Main.storyboard */; };
 		72DC2C7E1C8A8C0C0051AFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DC2C7D1C8A8C0C0051AFB2 /* Assets.xcassets */; };
 		72DC2C811C8A8C0C0051AFB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DC2C7F1C8A8C0C0051AFB2 /* LaunchScreen.storyboard */; };
-		72DC2C8D1C8AB60F0051AFB2 /* CountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DC2C8C1C8AB60F0051AFB2 /* CountDownView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +26,6 @@
 		72DC2C7D1C8A8C0C0051AFB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72DC2C801C8A8C0C0051AFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72DC2C821C8A8C0C0051AFB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72DC2C8B1C8AB60F0051AFB2 /* CountDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownView.h; sourceTree = "<group>"; };
-		72DC2C8C1C8AB60F0051AFB2 /* CountDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +67,6 @@
 				72DC2C7F1C8A8C0C0051AFB2 /* LaunchScreen.storyboard */,
 				72DC2C821C8A8C0C0051AFB2 /* Info.plist */,
 				72DC2C711C8A8C0C0051AFB2 /* Supporting Files */,
-				72DC2C8B1C8AB60F0051AFB2 /* CountDownView.h */,
-				72DC2C8C1C8AB60F0051AFB2 /* CountDownView.m */,
 			);
 			path = "countDown(倒计时)";
 			sourceTree = "<group>";
@@ -157,7 +152,6 @@
 			files = (
 				72DC2C791C8A8C0C0051AFB2 /* ViewController.m in Sources */,
 				72DC2C761C8A8C0C0051AFB2 /* AppDelegate.m in Sources */,
-				72DC2C8D1C8AB60F0051AFB2 /* CountDownView.m in Sources */,
 				72DC2C731C8A8C0C0051AFB2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
