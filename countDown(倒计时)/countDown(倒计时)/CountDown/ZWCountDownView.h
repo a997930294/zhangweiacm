@@ -10,7 +10,7 @@
 
 typedef void(^TimeStopBlock)();
 
-@interface ZWCountDemoView : UIView
+@interface ZWCountDownView : UIView
 /** 时间戳 */
 @property (nonatomic,assign)NSInteger timeStamp;   // 以秒为单位计算
 

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ZWCountDownView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    ZWCountDownView *countDown = [ZWCountDownView shareCoundDown];
+    
+    countDown.frame = CGRectMake(100,100,200,30);
+    countDown.timeStamp = 10;
+    countDown.backgroundImageName = @"search_k";
+    countDown.timeStopBlock = ^{
+      
+        NSLog(@"倒计时完成");
+    };
+    
+    [self.view addSubview:countDown];
 }
 
 - (void)didReceiveMemoryWarning {

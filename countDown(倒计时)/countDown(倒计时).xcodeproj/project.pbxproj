@@ -13,7 +13,7 @@
 		72DC2C7C1C8A8C0C0051AFB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DC2C7A1C8A8C0C0051AFB2 /* Main.storyboard */; };
 		72DC2C7E1C8A8C0C0051AFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DC2C7D1C8A8C0C0051AFB2 /* Assets.xcassets */; };
 		72DC2C811C8A8C0C0051AFB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DC2C7F1C8A8C0C0051AFB2 /* LaunchScreen.storyboard */; };
-		72DC2C941C8AB92E0051AFB2 /* ZWCountDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DC2C931C8AB92E0051AFB2 /* ZWCountDemoView.m */; };
+		72DC2C941C8AB92E0051AFB2 /* ZWCountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DC2C931C8AB92E0051AFB2 /* ZWCountDownView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		72DC2C7D1C8A8C0C0051AFB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72DC2C801C8A8C0C0051AFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72DC2C821C8A8C0C0051AFB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72DC2C921C8AB92E0051AFB2 /* ZWCountDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCountDemoView.h; sourceTree = "<group>"; };
-		72DC2C931C8AB92E0051AFB2 /* ZWCountDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCountDemoView.m; sourceTree = "<group>"; };
+		72DC2C921C8AB92E0051AFB2 /* ZWCountDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCountDownView.h; sourceTree = "<group>"; };
+		72DC2C931C8AB92E0051AFB2 /* ZWCountDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCountDownView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 		72DC2C8E1C8AB7F40051AFB2 /* CountDown */ = {
 			isa = PBXGroup;
 			children = (
-				72DC2C921C8AB92E0051AFB2 /* ZWCountDemoView.h */,
-				72DC2C931C8AB92E0051AFB2 /* ZWCountDemoView.m */,
+				72DC2C921C8AB92E0051AFB2 /* ZWCountDownView.h */,
+				72DC2C931C8AB92E0051AFB2 /* ZWCountDownView.m */,
 			);
 			path = CountDown;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 			files = (
 				72DC2C791C8A8C0C0051AFB2 /* ViewController.m in Sources */,
 				72DC2C761C8A8C0C0051AFB2 /* AppDelegate.m in Sources */,
-				72DC2C941C8AB92E0051AFB2 /* ZWCountDemoView.m in Sources */,
+				72DC2C941C8AB92E0051AFB2 /* ZWCountDownView.m in Sources */,
 				72DC2C731C8A8C0C0051AFB2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,11 +6,11 @@
 //  Copyright © 2016年 张伟. All rights reserved.
 //
 
-#import "ZWCountDemoView.h"
+#import "ZWCountDownView.h"
 
 #define LabelCount 4
 
-@interface ZWCountDemoView()
+@interface ZWCountDownView()
 /** 定时器 */
 @property (nonatomic,strong)dispatch_source_t timer;
 /** 时间数组 */
@@ -31,7 +31,7 @@
 
 @end
 
-@implementation ZWCountDemoView
+@implementation ZWCountDownView
 
 /** 创建单例 */
 + (instancetype)shareCoundDown
@@ -39,7 +39,7 @@
     static id instance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        instance = [[ZWCountDemoView alloc] init];
+        instance = [[ZWCountDownView alloc] init];
     });
     return instance;
 }
