@@ -13,6 +13,7 @@
 		72DC2C7C1C8A8C0C0051AFB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DC2C7A1C8A8C0C0051AFB2 /* Main.storyboard */; };
 		72DC2C7E1C8A8C0C0051AFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DC2C7D1C8A8C0C0051AFB2 /* Assets.xcassets */; };
 		72DC2C811C8A8C0C0051AFB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DC2C7F1C8A8C0C0051AFB2 /* LaunchScreen.storyboard */; };
+		72DC2C911C8AB8050051AFB2 /* CountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DC2C901C8AB8050051AFB2 /* CountDownView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		72DC2C7D1C8A8C0C0051AFB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72DC2C801C8A8C0C0051AFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72DC2C821C8A8C0C0051AFB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DC2C8F1C8AB8050051AFB2 /* CountDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownView.h; sourceTree = "<group>"; };
+		72DC2C901C8AB8050051AFB2 /* CountDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		72DC2C701C8A8C0C0051AFB2 /* countDown(倒计时) */ = {
 			isa = PBXGroup;
 			children = (
+				72DC2C8E1C8AB7F40051AFB2 /* CountDown */,
 				72DC2C741C8A8C0C0051AFB2 /* AppDelegate.h */,
 				72DC2C751C8A8C0C0051AFB2 /* AppDelegate.m */,
 				72DC2C771C8A8C0C0051AFB2 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				72DC2C721C8A8C0C0051AFB2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72DC2C8E1C8AB7F40051AFB2 /* CountDown */ = {
+			isa = PBXGroup;
+			children = (
+				72DC2C8F1C8AB8050051AFB2 /* CountDownView.h */,
+				72DC2C901C8AB8050051AFB2 /* CountDownView.m */,
+			);
+			path = CountDown;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			files = (
 				72DC2C791C8A8C0C0051AFB2 /* ViewController.m in Sources */,
 				72DC2C761C8A8C0C0051AFB2 /* AppDelegate.m in Sources */,
+				72DC2C911C8AB8050051AFB2 /* CountDownView.m in Sources */,
 				72DC2C731C8A8C0C0051AFB2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
